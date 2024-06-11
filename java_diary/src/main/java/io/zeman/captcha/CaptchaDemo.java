@@ -4,6 +4,7 @@ import cn.hutool.captcha.CaptchaUtil;
 import cn.hutool.captcha.CircleCaptcha;
 import cn.hutool.captcha.LineCaptcha;
 import cn.hutool.captcha.ShearCaptcha;
+import cn.hutool.captcha.generator.MathGenerator;
 import cn.hutool.core.lang.Console;
 
 
@@ -13,7 +14,7 @@ import cn.hutool.core.lang.Console;
  */
 public class CaptchaDemo {
     public static void main(String[] args) {
-        creatLineCaptcha();
+        creatCustomCaptcha();
     }
 
     /**
@@ -52,5 +53,22 @@ public class CaptchaDemo {
         lineCaptcha.write("d:/line.png");
         //输出code
         Console.log(lineCaptcha.getCode());
+    }
+
+    /**
+     * 自定义验证码
+     */
+    private static void creatCustomCaptcha() {
+        ShearCaptcha captcha = CaptchaUtil.createShearCaptcha(200, 45, 4, 4);
+        // 普通验证码
+        Console.log(captcha.getCode());
+        // 自定义验证码内容为四则运算方式
+        captcha.setGenerator(new MathGenerator());
+        // 输出指定目录
+        captcha.write("d:/shear.png");
+        // 重新生成code
+        captcha.createCode();
+        // 输出code
+        Console.log(captcha.getCode());
     }
 }
