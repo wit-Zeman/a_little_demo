@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/a_little_demo.iml" filepath="$PROJECT_DIR$/.idea/a_little_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/java_diary/java_diary.iml" filepath="$PROJECT_DIR$/java_diary/java_diary.iml" />
       <module fileurl="file://$PROJECT_DIR$/sa_token/sa_token.iml" filepath="$PROJECT_DIR$/sa_token/sa_token.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_boot/spring_boot.iml" filepath="$PROJECT_DIR$/spring_boot/spring_boot.iml" />
     </modules>
   </component>
 </project>

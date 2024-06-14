@@ -1,0 +1,9 @@
+# 应用服务 WEB 访问端口
+server:
+  port: 8080
+
+# 优雅地读取yaml文件
+Person:
+  name: "张三-local"
+  age: 18
+

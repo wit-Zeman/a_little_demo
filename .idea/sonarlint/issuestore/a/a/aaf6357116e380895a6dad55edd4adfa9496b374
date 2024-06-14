@@ -1,0 +1,6 @@
+
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ìî‚d8™¼Ğ«2J$c51e88fe-0ad8-4f0e-80ac-a3177114155b
+
+java:S2259$"HA "NullPointerException" could be thrown; "properties" is nullable here.(–È‹„úÿÿÿÿ8¼Ğ«2J$172e6e8b-48bb-4eb6-9713-15d48151129c
+r	java:S106$"+Replace this use of System.out by a logger.(–È‹„úÿÿÿÿ8¢¼Ğ«2J$7af12dd5-2817-4d41-8ba3-bc7a48662881
+m	java:S1060"+Replace this use of System.out by a logger.(»¾ƒÿ8ß×«2J$e60de8f3-7b78-4e5e-9a31-60a216c2a28a
