@@ -3,9 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/a_little_demo.iml" filepath="$PROJECT_DIR$/.idea/a_little_demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java_diary/java_diary.iml" filepath="$PROJECT_DIR$/java_diary/java_diary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sa_token/sa_token.iml" filepath="$PROJECT_DIR$/sa_token/sa_token.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring_boot/spring_boot.iml" filepath="$PROJECT_DIR$/spring_boot/spring_boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaDiary/javaDiary.iml" filepath="$PROJECT_DIR$/javaDiary/javaDiary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/saToken/saToken.iml" filepath="$PROJECT_DIR$/saToken/saToken.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springBoot/springBoot.iml" filepath="$PROJECT_DIR$/springBoot/springBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springCloud/springCloud.iml" filepath="$PROJECT_DIR$/springCloud/springCloud.iml" />
     </modules>
   </component>
 </project>
