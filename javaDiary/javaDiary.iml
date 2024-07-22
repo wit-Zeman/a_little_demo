@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_19">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_17">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
@@ -9,9 +9,12 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Maven: cn.hutool:hutool-all:5.8.16" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba:fastjson:2.0.52" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba.fastjson2:fastjson2-extension:2.0.52" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba.fastjson2:fastjson2:2.0.52" level="project" />
   </component>
   <component name="SonarLintModuleSettings">
     <option name="uniqueId" value="129fa1f0-31f8-4a0a-8000-8e52c24e6929" />

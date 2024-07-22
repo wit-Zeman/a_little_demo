@@ -7,19 +7,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="a_little_demo" />
+        <module name="mybatisGen" />
         <module name="javaDiary" />
         <module name="saToken" />
         <module name="springBoot" />
-        <module name="springCloud" />
+        <module name="a_little_demo" />
+        <module name="cloud_provider_payment_8001" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="a_little_demo" target="1.6" />
-      <module name="javaDiary" target="19" />
+      <module name="cloud_provider_payment_8001" target="17" />
+      <module name="CodeGen" target="17" />
+      <module name="javaDiary" target="17" />
+      <module name="mybatisGen" target="17" />
+      <module name="mybatisGenerator" target="17" />
       <module name="saToken" target="17" />
       <module name="springBoot" target="17" />
-      <module name="springCloud" target="17" />
+      <module name="springCloud2024" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
